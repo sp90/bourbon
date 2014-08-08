@@ -6,44 +6,25 @@
   $weight: normal,
   $style: normal,
   $asset-pipeline: $asset-pipeline,
-  $formats: eot woff ttf svg ) {
+  $file-formats: eot woff ttf svg ) {
 
-    @font-face {
-      font-family: $font-family;
-      font-weight: $weight;
-      font-style: $style;
+  $font-url-prefix: font-url-prefixer($asset-pipeline);
 
-      $font-url: url;
+  @font-face {
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
 
-      @if $asset-pipeline == true {
-        $font-url: font-url;
-      }
+    @if contains($formats, eot) {
+      src: "#{$font-url-prefix}('#{$file-path}.eot') format('embedded-opentype')";
+    }
 
-      $eot1: $font-url + "('#{$file-path}.eot')                 format('embedded-opentype')";
-      $eot2: $font-url + "('#{$file-path}.eot?#iefix')          format('embedded-opentype')";
-      $woff: $font-url + "('#{$file-path}.woff')                format('woff')";
-      $ttf:  $font-url + "('#{$file-path}.ttf')                 format('ttf')";
-      $svg:  $font-url + "('#{$file-path}.svg##{$font-family}') format('svg')";
-
-      $src:  null;
-
-      @if contains($formats,eot) {
-        $src: append($src,$eot2,comma);
-      }
-      @if contains($formats,woff) {
-        $src: append($src,$woff,comma);
-      }
-      @if contains($formats,ttf) {
-         $src: append($src,$ttf,comma);
-      }
-      @if contains($formats,eot) {
-         $src: append($src,$svg,comma);
-      }
-
-      @if contains($formats,eot) {
-        src: $eot1;
-      }
-
-      src: $src;
+    src: font-source-declaration(
+      $font-family,
+      $file-path,
+      $asset-pipeline,
+      $file-formats,
+      $font-url-prefix
+    );
   }
 }
