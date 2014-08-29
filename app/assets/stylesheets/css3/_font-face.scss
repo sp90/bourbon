@@ -6,7 +6,7 @@
   $weight: normal,
   $style: normal,
   $asset-pipeline: $asset-pipeline,
-  $file-formats: eot woff ttf svg ) {
+  $file-formats: eot woff ttf svg) {
 
   $font-url-prefix: font-url-prefixer($asset-pipeline);
 
