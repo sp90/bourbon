@@ -2,9 +2,9 @@
 
 @function font-url-prefixer($asset-pipeline) {
   @if $asset-pipeline == true {
-    @return: font-url;
+    @return font-url;
   } @else {
-    @return: url;
+    @return url;
   }
 }
 
@@ -25,10 +25,10 @@
   );
 
   @each $format, $file-path in $formats-map {
-    @if contains($formats, $format) {
+    @if contains($file-formats, $format) {
       $src: append($src, $file-path, comma);
     }
   }
 
-  @return src;
+  @return $src;
 }

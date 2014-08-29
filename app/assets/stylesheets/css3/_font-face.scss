@@ -15,7 +15,7 @@
     font-weight: $weight;
     font-style: $style;
 
-    @if contains($formats, eot) {
+    @if contains($file-formats, eot) {
       src: "#{$font-url-prefix}('#{$file-path}.eot') format('embedded-opentype')";
     }
 
