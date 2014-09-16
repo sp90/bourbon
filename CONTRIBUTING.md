@@ -1,4 +1,6 @@
-We love pull requests. Here’s a quick guide:
+# Contributing to Bourbon
+
+We love pull requests! Here’s a quick guide:
 
 1. Fork the repository.
 2. Make your changes in a topic branch.

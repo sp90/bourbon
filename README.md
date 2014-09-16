@@ -13,9 +13,9 @@ Bourbon is a library of pure Sass mixins that are designed to be simple and easy
 
 The mixins contain vendor specific prefixes for all CSS3 properties for support amongst modern browsers. The prefixes also ensure graceful degradation for older browsers that support only CSS3 prefixed properties. Bourbon uses SCSS syntax.
 
-#### [Documentation & Demo](http://bourbon.io)
-
-#### [Changelog](https://github.com/thoughtbot/bourbon/releases)
+- [Documentation & Demo](http://bourbon.io)
+- [Changelog](https://github.com/thoughtbot/bourbon/releases)
+- [Suggest features or file bugs](https://github.com/thoughtbot/bourbon/issues)
 
 ## Requirements
 
@@ -106,17 +106,6 @@ For command line help, use `bourbon help` or visit the [Command Line Interface W
 
 3. Follow the [instructions above](#installation) to install Bourbon into your project.
 
-## Command line interface
-
-```bash
-bourbon help
-bourbon install
-bourbon update
-bourbon version
-```
-
-More information can be found in the [wiki](https://github.com/thoughtbot/bourbon/wiki/Command-Line-Interface).
-
 ## Browser support
 
 - Chrome 10.0+
@@ -127,10 +116,10 @@ More information can be found in the [wiki](https://github.com/thoughtbot/bourbo
 
 ## The Bourbon family
 
-- [Bourbon](http://bourbon.io): A simple and lightweight mixin library for Sass
-- [Neat](http://neat.bourbon.io): A lightweight semantic grid framework for Sass and Bourbon
-- [Bitters](http://bitters.bourbon.io): Scaffold styles, variables and structure for Bourbon projects
-- [Refills](http://refills.bourbon.io): Prepackaged patterns and components, built on top of Bourbon, Bitters & Neat
+- [Bourbon](https://github.com/thoughtbot/bourbon): A simple and lightweight mixin library for Sass
+- [Neat](https://github.com/thoughtbot/neat): A lightweight semantic grid framework for Sass and Bourbon
+- [Bitters](https://github.com/thoughtbot/bitters): Scaffold styles, variables and structure for Bourbon projects
+- [Refills](https://github.com/thoughtbot/refills): Prepackaged patterns and components built with Bourbon, Neat and Bitters
 
 ## Credits
 
