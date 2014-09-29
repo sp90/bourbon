@@ -1,4 +1,4 @@
-[![Bourbon Sass Mixin Library](http://bourbon.io/images/shared/bourbon-logo.png)](http://bourbon.io)
+[![Bourbon Sass Mixin Library](https://dl.dropboxusercontent.com/content_link/KGz93W3AwHEkEXb6EeSmoB5lYMgxGJo0GRzs93SAPSjOeG9tvZfKSfxqExUk07Sd)](http://bourbon.io)
 
 [![Gem Version](http://img.shields.io/gem/v/bourbon.svg?style=flat)](https://rubygems.org/gems/bourbon)
 [![Code Climate](http://img.shields.io/codeclimate/github/thoughtbot/bourbon.svg?style=flat)](https://codeclimate.com/github/thoughtbot/bourbon)
@@ -134,7 +134,7 @@ More information can be found in the [wiki](https://github.com/thoughtbot/bourbo
 
 ## Credits
 
-![thoughtbot](http://thoughtbot.com/images/tm/logo.png)
+![thoughtbot](https://dl.dropboxusercontent.com/content_link/APC7LwrryhgvCShm2RLZp75f5Ld2QBe7KkkFuvYebjJXbwZ0WjiLApTB5BunUDzi)
 
 Bourbon is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Tweet your questions or suggestions to [@bourbonsass](https://twitter.com/bourbonsass) and while you’re at it follow us too.
 
