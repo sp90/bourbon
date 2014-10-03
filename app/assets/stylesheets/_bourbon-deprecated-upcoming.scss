@@ -6,3 +6,8 @@
   display: inline-block;
   @warn "inline-block mixin is deprecated and will be removed in the next major version release";
 }
+
+@function golden-ratio($value, $increment) {
+  @return modular-scale($value, $increment, $golden)
+  @warn "The golden-ratio function is deprecated and will be removed in the next major version release. Please use the modular-scale function, instead.";
+}
