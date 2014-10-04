@@ -26,9 +26,7 @@
 // Custom Functions
 @import "functions/assign";
 @import "functions/color-lightness";
-@import "functions/flex-grid";
 @import "functions/golden-ratio";
-@import "functions/grid-width";
 @import "functions/px-to-em";
 @import "functions/px-to-rem";
 @import "functions/strip-units";
@@ -65,7 +63,6 @@
 @import "css3/placeholder";
 
 // Addons & other mixins
-@import "addons/button";
 @import "addons/clearfix";
 @import "addons/directional-values";
 @import "addons/ellipsis";
